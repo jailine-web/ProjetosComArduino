@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600);
  
   pinMode(PORTA_RELE, OUTPUT);
-  pinMode(SENSOR_UMIDADE, INPUT);
+  pinMode(PORTA_SENSOR_UMIDADE, INPUT);
   digitalWrite(PORTA_RELE, LOW);
 }
 
@@ -21,9 +21,10 @@ void loop() {
   sensor_umidade = analogRead(PORTA_SENSOR_UMIDADE);
 
   Serial.println(sensor_umidade);
+  
   if(sensor_umidade > MAX_SECO){
     digitalWrite(PORTA_RELE, HIGH);
-      Serial.println("Bomba ligada");
+    Serial.println("Bomba ligada");
   } 
   else if (sensor_umidade < MIN_SECO){
       digitalWrite(PORTA_RELE, LOW);
@@ -32,4 +33,4 @@ void loop() {
    
   delay(DELAY);
 }
-  }
+ 
