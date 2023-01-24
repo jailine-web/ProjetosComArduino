@@ -12,4 +12,4 @@ A descrição sobre o desenvolvimento detalhado de cada projeto está disponíve
 O portal está hospedado no IP público, pertencente ao IF Baiano Campus Catu
 
 O portal e os projetos desenvolvidos, fazem parte de um projeto de extensão executado no período de 2022.
-O projeto tem o intuito de potencializar a aplicação do Pensamento Computacional (PC), assim como abordagens didáticas ativas na educação básica brasileira.
+O projeto tem o intuito de potencializar a aplicação do Pensamento Computacional (PC) e abordagens didáticas ativas na educação básica brasileira.
